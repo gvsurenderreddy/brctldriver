@@ -1,2 +1,2 @@
 # brctldriver
-Nodejs Linux Bridge (brctl) wrapper
+Nodejs bridge Control utility wrapper

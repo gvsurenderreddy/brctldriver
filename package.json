@@ -1,0 +1,28 @@
+{
+	"name": "brctldriver",
+	"description": "Linux Bridge control utility commands wrapper ",
+	"version": "0.0.1",
+	"author": "Suresh Kumar",	
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/sureshkvl/brctldriver.git"
+	},
+	"keywords": ["bridge","linux bridge","brctl","switch"],
+	"dependencies": {	
+	},
+	"devDependencies": {
+		"coffee-script": ">=1.9"
+	},
+	"config":{
+		"debianpackages":["linuxbridge"]	
+	},
+	"main": "./lib/brctl",
+	"license": "MIT",
+	"homepage": "http://kaanalnet.org",
+	"scripts": {		
+		"start": "nodejs lib/brctl.js"		
+	},
+	"contributors": [
+		""	
+	]
+}
